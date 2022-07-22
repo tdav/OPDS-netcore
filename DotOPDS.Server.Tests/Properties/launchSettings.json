@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DotOPDS.Server.Tests": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:58807;http://localhost:58808"
+    }
+  }
+}

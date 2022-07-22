@@ -1,0 +1,814 @@
+2022-07-22 10:30:24.269 +05:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-22 10:30:24.634 +05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2022-07-22 10:30:24.649 +05:00 [INF] Now listening on: http://[::]:25001
+2022-07-22 10:30:24.650 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-22 10:30:24.650 +05:00 [INF] Hosting environment: Development
+2022-07-22 10:30:24.651 +05:00 [INF] Content root path: C:\Works\DotOPDS\DotOPDS.Server
+2022-07-22 10:30:45.980 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/swagger - -
+2022-07-22 10:30:46.051 +05:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2022-07-22 10:30:46.192 +05:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\index.html'
+2022-07-22 10:30:46.195 +05:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2022-07-22 10:30:46.198 +05:00 [INF] HTTP GET /index.html responded 200 in 148.7215 ms
+2022-07-22 10:30:46.236 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/css/main.css - -
+2022-07-22 10:30:46.243 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/jquery/jquery.min.js - -
+2022-07-22 10:30:46.244 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/css/bootstrap.min.css - -
+2022-07-22 10:30:46.244 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/nprogress/nprogress.css - -
+2022-07-22 10:30:46.244 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/js/bootstrap.min.js - -
+2022-07-22 10:30:46.251 +05:00 [INF] Sending file. Request path: '/css/main.css'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\css\main.css'
+2022-07-22 10:30:46.257 +05:00 [INF] Sending file. Request path: '/vendor/jquery/jquery.min.js'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\jquery\jquery.min.js'
+2022-07-22 10:30:46.268 +05:00 [INF] Sending file. Request path: '/vendor/nprogress/nprogress.css'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\nprogress\nprogress.css'
+2022-07-22 10:30:46.265 +05:00 [INF] Sending file. Request path: '/vendor/bootstrap/js/bootstrap.min.js'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\bootstrap\js\bootstrap.min.js'
+2022-07-22 10:30:46.268 +05:00 [INF] Sending file. Request path: '/vendor/bootstrap/css/bootstrap.min.css'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\bootstrap\css\bootstrap.min.css'
+2022-07-22 10:30:46.269 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/jquery/jquery.min.js - - - 200 85660 application/javascript 25.0936ms
+2022-07-22 10:30:46.269 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/css/main.css - - - 200 5051 text/css 30.6770ms
+2022-07-22 10:30:46.269 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/swagger - - - 200 - text/html 289.2923ms
+2022-07-22 10:30:46.269 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/nprogress/nprogress.css - - - 200 1544 text/css 25.2423ms
+2022-07-22 10:30:46.270 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/js/bootstrap.min.js - - - 200 36874 application/javascript 25.6641ms
+2022-07-22 10:30:46.271 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/css/bootstrap.min.css - - - 200 121265 text/css 26.7273ms
+2022-07-22 10:30:46.281 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/historyjs/jquery.history.js - -
+2022-07-22 10:30:46.281 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans.css - -
+2022-07-22 10:30:46.281 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/nprogress/nprogress.js - -
+2022-07-22 10:30:46.281 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/jquery/jquery.binarytransport.js - -
+2022-07-22 10:30:46.283 +05:00 [INF] Sending file. Request path: '/vendor/historyjs/jquery.history.js'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\historyjs\jquery.history.js'
+2022-07-22 10:30:46.284 +05:00 [INF] Sending file. Request path: '/vendor/nprogress/nprogress.js'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\nprogress\nprogress.js'
+2022-07-22 10:30:46.281 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/handlebars/handlebars.js - -
+2022-07-22 10:30:46.281 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/fonts/lobster.css - -
+2022-07-22 10:30:46.285 +05:00 [INF] Sending file. Request path: '/vendor/jquery/jquery.binarytransport.js'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\jquery\jquery.binarytransport.js'
+2022-07-22 10:30:46.289 +05:00 [INF] Sending file. Request path: '/vendor/fonts/lobster.css'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\fonts\lobster.css'
+2022-07-22 10:30:46.286 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/historyjs/jquery.history.js - - - 200 22927 application/javascript 4.7859ms
+2022-07-22 10:30:46.287 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/nprogress/nprogress.js - - - 200 12256 application/javascript 5.6494ms
+2022-07-22 10:30:46.288 +05:00 [INF] Sending file. Request path: '/vendor/handlebars/handlebars.js'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\handlebars\handlebars.js'
+2022-07-22 10:30:46.283 +05:00 [INF] Sending file. Request path: '/vendor/fonts/pt-sans.css'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\fonts\pt-sans.css'
+2022-07-22 10:30:46.290 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/jquery/jquery.binarytransport.js - - - 200 1743 application/javascript 8.5196ms
+2022-07-22 10:30:46.294 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/fonts/lobster.css - - - 200 928 text/css 12.7599ms
+2022-07-22 10:30:46.295 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/content-disposition/emailjs-mime-codec.js - -
+2022-07-22 10:30:46.295 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/_framework/aspnetcore-browser-refresh.js - -
+2022-07-22 10:30:46.298 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/_vs/browserLink - -
+2022-07-22 10:30:46.297 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/handlebars/handlebars.js - - - 200 164193 application/javascript 15.4286ms
+2022-07-22 10:30:46.298 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans.css - - - 200 3380 text/css 16.4472ms
+2022-07-22 10:30:46.301 +05:00 [INF] Sending file. Request path: '/vendor/content-disposition/emailjs-mime-codec.js'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\content-disposition\emailjs-mime-codec.js'
+2022-07-22 10:30:46.304 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 8.2337ms
+2022-07-22 10:30:46.305 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/content-disposition/emailjs-mime-codec.js - - - 200 47902 application/javascript 10.2946ms
+2022-07-22 10:30:46.303 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/js/main.js - -
+2022-07-22 10:30:46.312 +05:00 [INF] Sending file. Request path: '/js/main.js'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\js\main.js'
+2022-07-22 10:30:46.313 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/js/main.js - - - 200 9998 application/javascript 9.9987ms
+2022-07-22 10:30:46.331 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/fonts/lobster/lobster-v16-cyrillic_latin_vietnamese-regular.woff2 - -
+2022-07-22 10:30:46.331 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-regular.woff2 - -
+2022-07-22 10:30:46.331 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-700.woff2 - -
+2022-07-22 10:30:46.333 +05:00 [INF] Sending file. Request path: '/vendor/fonts/lobster/lobster-v16-cyrillic_latin_vietnamese-regular.woff2'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\fonts\lobster\lobster-v16-cyrillic_latin_vietnamese-regular.woff2'
+2022-07-22 10:30:46.334 +05:00 [INF] Sending file. Request path: '/vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-regular.woff2'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\fonts\pt-sans\pt-sans-v8-cyrillic_latin-regular.woff2'
+2022-07-22 10:30:46.336 +05:00 [INF] Sending file. Request path: '/vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-700.woff2'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\vendor\fonts\pt-sans\pt-sans-v8-cyrillic_latin-700.woff2'
+2022-07-22 10:30:46.337 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/fonts/lobster/lobster-v16-cyrillic_latin_vietnamese-regular.woff2 - - - 200 101128 font/woff2 6.7532ms
+2022-07-22 10:30:46.339 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-regular.woff2 - - - 200 65848 font/woff2 7.9519ms
+2022-07-22 10:30:46.342 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-700.woff2 - - - 200 71104 font/woff2 11.3392ms
+2022-07-22 10:30:46.344 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=swagger&page=1 - -
+2022-07-22 10:30:46.345 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/opds - -
+2022-07-22 10:30:46.347 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.OpdsController.Index (book_lib_server)'
+2022-07-22 10:30:46.350 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 10:30:46.358 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.5367ms
+2022-07-22 10:30:46.388 +05:00 [INF] Route matched with {action = "Index", controller = "Opds"}. Executing controller action with signature DotOPDS.Database.Dto.Feed Index() on controller DotOPDS.Server.Controllers.OpdsController (book_lib_server).
+2022-07-22 10:30:46.406 +05:00 [INF] Route matched with {action = "Search", controller = "Opds"}. Executing controller action with signature System.Threading.Tasks.Task`1[DotOPDS.Database.Dto.Feed] Search(System.String, Int32, System.Threading.CancellationToken) on controller DotOPDS.Server.Controllers.OpdsController (book_lib_server).
+2022-07-22 10:30:46.407 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/favicon.png - -
+2022-07-22 10:30:46.414 +05:00 [INF] Sending file. Request path: '/favicon.png'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\favicon.png'
+2022-07-22 10:30:46.415 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/favicon.png - - - 200 12306 image/png 8.5361ms
+2022-07-22 10:30:46.655 +05:00 [INF] Executing ObjectResult, writing value of type 'DotOPDS.Database.Dto.Feed'.
+2022-07-22 10:30:46.717 +05:00 [INF] Executed action DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server) in 304.6773ms
+2022-07-22 10:30:46.717 +05:00 [INF] Executed action DotOPDS.Server.Controllers.OpdsController.Index (book_lib_server) in 324.9726ms
+2022-07-22 10:30:46.720 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 10:30:46.720 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.OpdsController.Index (book_lib_server)'
+2022-07-22 10:30:46.721 +05:00 [ERR] HTTP GET /opds/search/everywhere responded 500 in 370.9842 ms
+System.IO.DirectoryNotFoundException: directory 'C:\Works\DotOPDS_V2\app\Debug\net6.0\index' does not exist
+   at Lucene.Net.Store.FSDirectory.ListAll(DirectoryInfo dir)
+   at Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Lucene.Net.Index.DirectoryReader.Open(Directory directory)
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Query query, Int32 take, Int32 skip, Int32& count) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 123
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Int32& count, String query, String field, Int32 page) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 88
+   at DotOPDS.Server.Controllers.OpdsController.Search(String q, Int32 page, CancellationToken cancellationToken) in C:\Works\DotOPDS\DotOPDS.Server\Controllers\OpdsController.cs:line 108
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-07-22 10:30:46.722 +05:00 [INF] HTTP GET /opds responded 200 in 374.8341 ms
+2022-07-22 10:30:46.832 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/opds - - - 200 - application/json;+charset=utf-8 487.4379ms
+2022-07-22 10:30:46.834 +05:00 [ERR] Connection id "0HMJBKD9VH5FU", Request id "0HMJBKD9VH5FU:00000006": An unhandled exception was thrown by the application.
+System.IO.DirectoryNotFoundException: directory 'C:\Works\DotOPDS_V2\app\Debug\net6.0\index' does not exist
+   at Lucene.Net.Store.FSDirectory.ListAll(DirectoryInfo dir)
+   at Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Lucene.Net.Index.DirectoryReader.Open(Directory directory)
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Query query, Int32 take, Int32 skip, Int32& count) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 123
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Int32& count, String query, String field, Int32 page) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 88
+   at DotOPDS.Server.Controllers.OpdsController.Search(String q, Int32 page, CancellationToken cancellationToken) in C:\Works\DotOPDS\DotOPDS.Server\Controllers\OpdsController.cs:line 108
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at DotOPDS.Server.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in C:\Works\DotOPDS\DotOPDS.Server\Startup.cs:line 53
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-07-22 10:30:46.851 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=swagger&page=1 - - - 500 0 - 507.0703ms
+2022-07-22 11:06:55.161 +05:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-22 11:06:56.243 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-07-22 11:06:56.418 +05:00 [INF] Entity Framework Core 6.0.3 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled using snake-case naming  (culture=)
+2022-07-22 11:06:57.130 +05:00 [INF] Executed DbCommand (356ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE books_db;
+2022-07-22 11:06:57.321 +05:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    migration_id character varying(150) NOT NULL,
+    product_version character varying(32) NOT NULL,
+    CONSTRAINT pk___ef_migrations_history PRIMARY KEY (migration_id)
+);
+2022-07-22 11:06:57.384 +05:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 11:06:57.391 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT migration_id, product_version
+FROM "__EFMigrationsHistory"
+ORDER BY migration_id;
+2022-07-22 11:06:57.406 +05:00 [INF] No migrations were applied. The database is already up to date.
+2022-07-22 11:06:57.432 +05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2022-07-22 11:06:57.441 +05:00 [INF] Now listening on: http://[::]:25001
+2022-07-22 11:06:57.442 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-22 11:06:57.443 +05:00 [INF] Hosting environment: Development
+2022-07-22 11:06:57.443 +05:00 [INF] Content root path: C:\Works\DotOPDS\DotOPDS.Server
+2022-07-22 11:08:22.256 +05:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-22 11:08:23.259 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-07-22 11:08:23.442 +05:00 [INF] Entity Framework Core 6.0.3 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled using snake-case naming  (culture=)
+2022-07-22 11:08:23.808 +05:00 [INF] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 11:08:23.840 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 11:08:23.866 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT migration_id, product_version
+FROM "__EFMigrationsHistory"
+ORDER BY migration_id;
+2022-07-22 11:08:23.882 +05:00 [INF] Applying migration '20220722060754_t1'.
+2022-07-22 11:08:23.961 +05:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE authors (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    CONSTRAINT pk_authors PRIMARY KEY (id)
+);
+2022-07-22 11:08:23.967 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE book_tags (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    CONSTRAINT pk_book_tags PRIMARY KEY (id)
+);
+2022-07-22 11:08:23.973 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE genres (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    CONSTRAINT pk_genres PRIMARY KEY (id)
+);
+2022-07-22 11:08:23.978 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE thumbnails (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    data bytea NOT NULL,
+    CONSTRAINT pk_thumbnails PRIMARY KEY (id)
+);
+2022-07-22 11:08:23.986 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE books (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    file_name text NOT NULL,
+    authors integer[] NULL,
+    genres integer[] NOT NULL,
+    book_tags integer[] NOT NULL,
+    image_id integer NULL,
+    CONSTRAINT pk_books PRIMARY KEY (id),
+    CONSTRAINT fk_books_thumbnails_image_id FOREIGN KEY (image_id) REFERENCES thumbnails (id) ON DELETE RESTRICT
+);
+2022-07-22 11:08:23.990 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX ix_books_image_id ON books (image_id);
+2022-07-22 11:08:23.992 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" (migration_id, product_version)
+VALUES ('20220722060754_t1', '6.0.3');
+2022-07-22 11:08:24.026 +05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2022-07-22 11:08:24.033 +05:00 [INF] Now listening on: http://[::]:25001
+2022-07-22 11:08:24.034 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-22 11:08:24.035 +05:00 [INF] Hosting environment: Development
+2022-07-22 11:08:24.035 +05:00 [INF] Content root path: C:\Works\DotOPDS\DotOPDS.Server
+2022-07-22 15:06:30.618 +05:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-22 15:06:31.629 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-07-22 15:06:31.806 +05:00 [INF] Entity Framework Core 6.0.3 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled using snake-case naming  (culture=)
+2022-07-22 15:06:32.512 +05:00 [INF] Executed DbCommand (366ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE books_db;
+2022-07-22 15:06:32.695 +05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    migration_id character varying(150) NOT NULL,
+    product_version character varying(32) NOT NULL,
+    CONSTRAINT pk___ef_migrations_history PRIMARY KEY (migration_id)
+);
+2022-07-22 15:06:32.758 +05:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 15:06:32.765 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT migration_id, product_version
+FROM "__EFMigrationsHistory"
+ORDER BY migration_id;
+2022-07-22 15:06:32.782 +05:00 [INF] Applying migration '20220722060754_t1'.
+2022-07-22 15:06:32.835 +05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE authors (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    CONSTRAINT pk_authors PRIMARY KEY (id)
+);
+2022-07-22 15:06:32.841 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE book_tags (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    CONSTRAINT pk_book_tags PRIMARY KEY (id)
+);
+2022-07-22 15:06:32.846 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE genres (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    CONSTRAINT pk_genres PRIMARY KEY (id)
+);
+2022-07-22 15:06:32.851 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE thumbnails (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    data bytea NOT NULL,
+    CONSTRAINT pk_thumbnails PRIMARY KEY (id)
+);
+2022-07-22 15:06:32.859 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE books (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    file_name text NOT NULL,
+    authors integer[] NULL,
+    genres integer[] NOT NULL,
+    book_tags integer[] NOT NULL,
+    image_id integer NULL,
+    CONSTRAINT pk_books PRIMARY KEY (id),
+    CONSTRAINT fk_books_thumbnails_image_id FOREIGN KEY (image_id) REFERENCES thumbnails (id) ON DELETE RESTRICT
+);
+2022-07-22 15:06:32.867 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX ix_books_image_id ON books (image_id);
+2022-07-22 15:06:32.869 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" (migration_id, product_version)
+VALUES ('20220722060754_t1', '6.0.3');
+2022-07-22 15:06:32.902 +05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2022-07-22 15:06:32.910 +05:00 [INF] Now listening on: http://[::]:25001
+2022-07-22 15:06:32.911 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-22 15:06:32.912 +05:00 [INF] Hosting environment: Development
+2022-07-22 15:06:32.912 +05:00 [INF] Content root path: C:\Works\DotOPDS\DotOPDS.Server
+2022-07-22 21:34:19.368 +05:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-22 21:34:20.576 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-07-22 21:34:20.760 +05:00 [INF] Entity Framework Core 6.0.3 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled using snake-case naming  (culture=)
+2022-07-22 21:34:21.296 +05:00 [INF] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 21:34:21.329 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 21:34:21.356 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT migration_id, product_version
+FROM "__EFMigrationsHistory"
+ORDER BY migration_id;
+2022-07-22 21:34:21.376 +05:00 [INF] No migrations were applied. The database is already up to date.
+2022-07-22 21:34:21.403 +05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2022-07-22 21:34:21.412 +05:00 [INF] Now listening on: http://[::]:25001
+2022-07-22 21:34:21.413 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-22 21:34:21.413 +05:00 [INF] Hosting environment: Development
+2022-07-22 21:34:21.414 +05:00 [INF] Content root path: C:\Works\DotOPDS\DotOPDS.Server
+2022-07-22 21:34:54.752 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/ - -
+2022-07-22 21:34:54.816 +05:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\index.html'
+2022-07-22 21:34:54.818 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/ - - - 200 - text/html 69.0185ms
+2022-07-22 21:34:54.897 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/js/bootstrap.min.js - -
+2022-07-22 21:34:54.899 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/nprogress/nprogress.css - -
+2022-07-22 21:34:54.899 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/css/bootstrap.min.css - -
+2022-07-22 21:34:54.899 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/jquery/jquery.min.js - -
+2022-07-22 21:34:54.899 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/css/main.css - -
+2022-07-22 21:34:54.900 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/_framework/aspnetcore-browser-refresh.js - -
+2022-07-22 21:34:54.902 +05:00 [INF] The file /vendor/nprogress/nprogress.css was not modified
+2022-07-22 21:34:54.902 +05:00 [INF] The file /vendor/bootstrap/js/bootstrap.min.js was not modified
+2022-07-22 21:34:54.902 +05:00 [INF] The file /vendor/bootstrap/css/bootstrap.min.css was not modified
+2022-07-22 21:34:54.902 +05:00 [INF] The file /vendor/jquery/jquery.min.js was not modified
+2022-07-22 21:34:54.902 +05:00 [INF] The file /css/main.css was not modified
+2022-07-22 21:34:54.903 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/nprogress/nprogress.css - - - 304 - text/css 4.2216ms
+2022-07-22 21:34:54.904 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/js/bootstrap.min.js - - - 304 - application/javascript 7.3062ms
+2022-07-22 21:34:54.905 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/css/bootstrap.min.css - - - 304 - text/css 5.6598ms
+2022-07-22 21:34:54.905 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 4.8931ms
+2022-07-22 21:34:54.906 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/jquery/jquery.min.js - - - 304 - application/javascript 7.0033ms
+2022-07-22 21:34:54.906 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/css/main.css - - - 304 - text/css 9.6328ms
+2022-07-22 21:34:54.907 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/nprogress/nprogress.js - -
+2022-07-22 21:34:54.907 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/handlebars/handlebars.js - -
+2022-07-22 21:34:54.908 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/historyjs/jquery.history.js - -
+2022-07-22 21:34:54.908 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/jquery/jquery.binarytransport.js - -
+2022-07-22 21:34:54.909 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/content-disposition/emailjs-mime-codec.js - -
+2022-07-22 21:34:54.913 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/js/main.js - -
+2022-07-22 21:34:54.914 +05:00 [INF] The file /vendor/nprogress/nprogress.js was not modified
+2022-07-22 21:34:54.921 +05:00 [INF] The file /vendor/handlebars/handlebars.js was not modified
+2022-07-22 21:34:54.921 +05:00 [INF] The file /vendor/historyjs/jquery.history.js was not modified
+2022-07-22 21:34:54.922 +05:00 [INF] The file /vendor/jquery/jquery.binarytransport.js was not modified
+2022-07-22 21:34:54.923 +05:00 [INF] The file /vendor/content-disposition/emailjs-mime-codec.js was not modified
+2022-07-22 21:34:54.924 +05:00 [INF] The file /js/main.js was not modified
+2022-07-22 21:34:54.924 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/nprogress/nprogress.js - - - 304 - application/javascript 17.2692ms
+2022-07-22 21:34:54.927 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/handlebars/handlebars.js - - - 304 - application/javascript 19.1873ms
+2022-07-22 21:34:54.928 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/historyjs/jquery.history.js - - - 304 - application/javascript 19.6774ms
+2022-07-22 21:34:54.929 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/jquery/jquery.binarytransport.js - - - 304 - application/javascript 20.4140ms
+2022-07-22 21:34:54.930 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/content-disposition/emailjs-mime-codec.js - - - 304 - application/javascript 21.0185ms
+2022-07-22 21:34:54.932 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/fonts/lobster.css - -
+2022-07-22 21:34:54.931 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/js/main.js - - - 304 - application/javascript 18.7778ms
+2022-07-22 21:34:54.935 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans.css - -
+2022-07-22 21:34:54.938 +05:00 [INF] The file /vendor/fonts/lobster.css was not modified
+2022-07-22 21:34:54.940 +05:00 [INF] The file /vendor/fonts/pt-sans.css was not modified
+2022-07-22 21:34:54.940 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/fonts/lobster.css - - - 304 - text/css 7.9754ms
+2022-07-22 21:34:54.943 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans.css - - - 304 - text/css 8.1629ms
+2022-07-22 21:34:54.983 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/fonts/lobster/lobster-v16-cyrillic_latin_vietnamese-regular.woff2 - -
+2022-07-22 21:34:54.983 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-regular.woff2 - -
+2022-07-22 21:34:54.983 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-700.woff2 - -
+2022-07-22 21:34:54.984 +05:00 [INF] The file /vendor/fonts/lobster/lobster-v16-cyrillic_latin_vietnamese-regular.woff2 was not modified
+2022-07-22 21:34:54.986 +05:00 [INF] The file /vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-regular.woff2 was not modified
+2022-07-22 21:34:54.987 +05:00 [INF] The file /vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-700.woff2 was not modified
+2022-07-22 21:34:54.988 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/fonts/lobster/lobster-v16-cyrillic_latin_vietnamese-regular.woff2 - - - 304 - font/woff2 5.4385ms
+2022-07-22 21:34:54.988 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/opds - -
+2022-07-22 21:34:54.990 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-regular.woff2 - - - 304 - font/woff2 7.2139ms
+2022-07-22 21:34:54.991 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/fonts/pt-sans/pt-sans-v8-cyrillic_latin-700.woff2 - - - 304 - font/woff2 8.3143ms
+2022-07-22 21:34:55.027 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.OpdsController.Index (book_lib_server)'
+2022-07-22 21:34:55.040 +05:00 [INF] Route matched with {action = "Index", controller = "Opds"}. Executing controller action with signature DotOPDS.Database.Dto.Feed Index() on controller DotOPDS.Server.Controllers.OpdsController (book_lib_server).
+2022-07-22 21:34:55.290 +05:00 [INF] Executing ObjectResult, writing value of type 'DotOPDS.Database.Dto.Feed'.
+2022-07-22 21:34:55.310 +05:00 [INF] Executed action DotOPDS.Server.Controllers.OpdsController.Index (book_lib_server) in 263.5679ms
+2022-07-22 21:34:55.312 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.OpdsController.Index (book_lib_server)'
+2022-07-22 21:34:55.315 +05:00 [INF] HTTP GET /opds responded 200 in 288.2677 ms
+2022-07-22 21:34:55.318 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/opds - - - 200 - application/json;+charset=utf-8 329.8221ms
+2022-07-22 21:34:58.075 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=c%23&page=1 - -
+2022-07-22 21:34:58.082 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:34:58.101 +05:00 [INF] Route matched with {action = "Search", controller = "Opds"}. Executing controller action with signature System.Threading.Tasks.Task`1[DotOPDS.Database.Dto.Feed] Search(System.String, Int32, System.Threading.CancellationToken) on controller DotOPDS.Server.Controllers.OpdsController (book_lib_server).
+2022-07-22 21:34:58.271 +05:00 [INF] Executed action DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server) in 167.4099ms
+2022-07-22 21:34:58.273 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:34:58.274 +05:00 [ERR] HTTP GET /opds/search/everywhere responded 500 in 191.3873 ms
+Lucene.Net.Index.IndexNotFoundException: no segments* file found in MMapDirectory@C:\Works\DotOPDS_V2\app\Debug\net6.0\index lockFactory=NativeFSLockFactory@C:\Works\DotOPDS_V2\app\Debug\net6.0\index: files: [write.lock]
+   at Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Lucene.Net.Index.DirectoryReader.Open(Directory directory)
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Query query, Int32 take, Int32 skip, Int32& count) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 123
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Int32& count, String query, String field, Int32 page) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 88
+   at DotOPDS.Server.Controllers.OpdsController.Search(String q, Int32 page, CancellationToken cancellationToken) in C:\Works\DotOPDS\DotOPDS.Server\Controllers\OpdsController.cs:line 108
+   at lambda_method16(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-07-22 21:34:58.360 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Lucene.Net.Index.IndexNotFoundException: no segments* file found in MMapDirectory@C:\Works\DotOPDS_V2\app\Debug\net6.0\index lockFactory=NativeFSLockFactory@C:\Works\DotOPDS_V2\app\Debug\net6.0\index: files: [write.lock]
+   at Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Lucene.Net.Index.DirectoryReader.Open(Directory directory)
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Query query, Int32 take, Int32 skip, Int32& count) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 123
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Int32& count, String query, String field, Int32 page) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 88
+   at DotOPDS.Server.Controllers.OpdsController.Search(String q, Int32 page, CancellationToken cancellationToken) in C:\Works\DotOPDS\DotOPDS.Server\Controllers\OpdsController.cs:line 108
+   at lambda_method16(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at DotOPDS.Server.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in C:\Works\DotOPDS\DotOPDS.Server\Startup.cs:line 55
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-22 21:34:58.382 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=c%23&page=1 - - - 500 - text/plain;+charset=utf-8 306.9124ms
+2022-07-22 21:35:21.932 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=as&page=1 - -
+2022-07-22 21:35:21.937 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:35:21.938 +05:00 [INF] Route matched with {action = "Search", controller = "Opds"}. Executing controller action with signature System.Threading.Tasks.Task`1[DotOPDS.Database.Dto.Feed] Search(System.String, Int32, System.Threading.CancellationToken) on controller DotOPDS.Server.Controllers.OpdsController (book_lib_server).
+2022-07-22 21:35:21.962 +05:00 [INF] Executed action DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server) in 20.6986ms
+2022-07-22 21:35:21.963 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:35:21.964 +05:00 [ERR] HTTP GET /opds/search/everywhere responded 500 in 26.1538 ms
+Lucene.Net.Index.IndexNotFoundException: no segments* file found in MMapDirectory@C:\Works\DotOPDS_V2\app\Debug\net6.0\index lockFactory=NativeFSLockFactory@C:\Works\DotOPDS_V2\app\Debug\net6.0\index: files: [write.lock]
+   at Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Lucene.Net.Index.DirectoryReader.Open(Directory directory)
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Query query, Int32 take, Int32 skip, Int32& count) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 123
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Int32& count, String query, String field, Int32 page) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 88
+   at DotOPDS.Server.Controllers.OpdsController.Search(String q, Int32 page, CancellationToken cancellationToken) in C:\Works\DotOPDS\DotOPDS.Server\Controllers\OpdsController.cs:line 108
+   at lambda_method16(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-07-22 21:35:21.997 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+Lucene.Net.Index.IndexNotFoundException: no segments* file found in MMapDirectory@C:\Works\DotOPDS_V2\app\Debug\net6.0\index lockFactory=NativeFSLockFactory@C:\Works\DotOPDS_V2\app\Debug\net6.0\index: files: [write.lock]
+   at Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Lucene.Net.Index.DirectoryReader.Open(Directory directory)
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Query query, Int32 take, Int32 skip, Int32& count) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 123
+   at DotOPDS.Shared.LuceneIndexStorage.Search(Int32& count, String query, String field, Int32 page) in C:\Works\DotOPDS\DotOPDS.Shared\LuceneIndexStorage.cs:line 88
+   at DotOPDS.Server.Controllers.OpdsController.Search(String q, Int32 page, CancellationToken cancellationToken) in C:\Works\DotOPDS\DotOPDS.Server\Controllers\OpdsController.cs:line 108
+   at lambda_method16(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at DotOPDS.Server.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in C:\Works\DotOPDS\DotOPDS.Server\Startup.cs:line 55
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-22 21:35:22.018 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=as&page=1 - - - 500 - text/plain;+charset=utf-8 85.9215ms
+2022-07-22 21:38:18.666 +05:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-22 21:38:19.690 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-07-22 21:38:19.868 +05:00 [INF] Entity Framework Core 6.0.3 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled using snake-case naming  (culture=)
+2022-07-22 21:38:20.519 +05:00 [INF] Executed DbCommand (332ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE books_db;
+2022-07-22 21:38:20.710 +05:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    migration_id character varying(150) NOT NULL,
+    product_version character varying(32) NOT NULL,
+    CONSTRAINT pk___ef_migrations_history PRIMARY KEY (migration_id)
+);
+2022-07-22 21:38:20.773 +05:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 21:38:20.781 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT migration_id, product_version
+FROM "__EFMigrationsHistory"
+ORDER BY migration_id;
+2022-07-22 21:38:20.797 +05:00 [INF] Applying migration '20220722060754_t1'.
+2022-07-22 21:38:20.851 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE authors (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    CONSTRAINT pk_authors PRIMARY KEY (id)
+);
+2022-07-22 21:38:20.857 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE book_tags (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    CONSTRAINT pk_book_tags PRIMARY KEY (id)
+);
+2022-07-22 21:38:20.862 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE genres (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    CONSTRAINT pk_genres PRIMARY KEY (id)
+);
+2022-07-22 21:38:20.867 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE thumbnails (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    data bytea NOT NULL,
+    CONSTRAINT pk_thumbnails PRIMARY KEY (id)
+);
+2022-07-22 21:38:20.875 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE books (
+    id integer GENERATED BY DEFAULT AS IDENTITY,
+    name text NOT NULL,
+    file_name text NOT NULL,
+    authors integer[] NULL,
+    genres integer[] NOT NULL,
+    book_tags integer[] NOT NULL,
+    image_id integer NULL,
+    CONSTRAINT pk_books PRIMARY KEY (id),
+    CONSTRAINT fk_books_thumbnails_image_id FOREIGN KEY (image_id) REFERENCES thumbnails (id) ON DELETE RESTRICT
+);
+2022-07-22 21:38:20.879 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX ix_books_image_id ON books (image_id);
+2022-07-22 21:38:20.881 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" (migration_id, product_version)
+VALUES ('20220722060754_t1', '6.0.3');
+2022-07-22 21:38:20.914 +05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2022-07-22 21:38:20.922 +05:00 [INF] Now listening on: http://[::]:25001
+2022-07-22 21:38:20.922 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-22 21:38:20.923 +05:00 [INF] Hosting environment: Development
+2022-07-22 21:38:20.924 +05:00 [INF] Content root path: C:\Works\DotOPDS\DotOPDS.Server
+2022-07-22 21:41:03.704 +05:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-22 21:41:04.734 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-07-22 21:41:04.915 +05:00 [INF] Entity Framework Core 6.0.3 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled using snake-case naming  (culture=)
+2022-07-22 21:41:05.288 +05:00 [INF] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 21:41:05.321 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 21:41:05.348 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT migration_id, product_version
+FROM "__EFMigrationsHistory"
+ORDER BY migration_id;
+2022-07-22 21:41:05.368 +05:00 [INF] No migrations were applied. The database is already up to date.
+2022-07-22 21:41:05.390 +05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2022-07-22 21:41:05.398 +05:00 [INF] Now listening on: http://[::]:25001
+2022-07-22 21:41:05.399 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-22 21:41:05.399 +05:00 [INF] Hosting environment: Development
+2022-07-22 21:41:05.400 +05:00 [INF] Content root path: C:\Works\DotOPDS\DotOPDS.Server
+2022-07-22 21:41:12.406 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=v&page=1 - -
+2022-07-22 21:41:12.468 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:41:12.494 +05:00 [INF] Route matched with {action = "Search", controller = "Opds"}. Executing controller action with signature System.Threading.Tasks.Task`1[DotOPDS.Database.Dto.Feed] Search(System.String, Int32, System.Threading.CancellationToken) on controller DotOPDS.Server.Controllers.OpdsController (book_lib_server).
+2022-07-22 21:41:12.937 +05:00 [INF] Executing ObjectResult, writing value of type 'DotOPDS.Database.Dto.Feed'.
+2022-07-22 21:41:12.955 +05:00 [INF] Executed action DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server) in 454.578ms
+2022-07-22 21:41:12.957 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:41:12.960 +05:00 [INF] HTTP GET /opds/search/everywhere responded 200 in 492.5406 ms
+2022-07-22 21:41:12.963 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=v&page=1 - - - 200 - application/json;+charset=utf-8 558.8447ms
+2022-07-22 21:41:48.671 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=ASP.NET&page=1 - -
+2022-07-22 21:41:48.673 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:41:48.674 +05:00 [INF] Route matched with {action = "Search", controller = "Opds"}. Executing controller action with signature System.Threading.Tasks.Task`1[DotOPDS.Database.Dto.Feed] Search(System.String, Int32, System.Threading.CancellationToken) on controller DotOPDS.Server.Controllers.OpdsController (book_lib_server).
+2022-07-22 21:41:48.735 +05:00 [INF] Executing ObjectResult, writing value of type 'DotOPDS.Database.Dto.Feed'.
+2022-07-22 21:41:48.739 +05:00 [INF] Executed action DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server) in 63.0814ms
+2022-07-22 21:41:48.740 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:41:48.740 +05:00 [INF] HTTP GET /opds/search/everywhere responded 200 in 67.0450 ms
+2022-07-22 21:41:48.742 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=ASP.NET&page=1 - - - 200 - application/json;+charset=utf-8 71.3678ms
+2022-07-22 21:41:48.770 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/b8d7a7c2-5ff2-4b9a-9819-9ab0da614a65 - -
+2022-07-22 21:41:48.770 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/c4ce9b9f-a314-4462-97a6-cdca879004f5 - -
+2022-07-22 21:41:48.770 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/204e6c6b-19d9-4e6b-8774-122c4dc5d321 - -
+2022-07-22 21:41:48.780 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.777 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd - -
+2022-07-22 21:41:48.777 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/cde8a66f-87ff-4116-8d36-0c440b0b8a4a - -
+2022-07-22 21:41:48.786 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/a845d574-1626-47c0-b558-9dde04c76a10 - -
+2022-07-22 21:41:48.789 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.789 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.790 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.790 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:41:48.791 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.792 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.793 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:41:48.800 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:41:48.804 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:41:48.807 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:41:48.808 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:41:48.818 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:41:48.818 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:41:48.821 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:41:48.824 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:41:48.830 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 23.8894ms
+2022-07-22 21:41:48.825 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:41:48.850 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.839 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 19.3189ms
+2022-07-22 21:41:48.853 +05:00 [INF] HTTP GET /download/cover/b8d7a7c2-5ff2-4b9a-9819-9ab0da614a65 responded 200 in 73.7214 ms
+2022-07-22 21:41:48.855 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 37.9239ms
+2022-07-22 21:41:48.855 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 43.4634ms
+2022-07-22 21:41:48.855 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 36.3037ms
+2022-07-22 21:41:48.855 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.828 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:41:48.858 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/b8d7a7c2-5ff2-4b9a-9819-9ab0da614a65 - - - 200 12306 image/png 88.8854ms
+2022-07-22 21:41:48.866 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.867 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.868 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.868 +05:00 [INF] HTTP GET /download/cover/cde8a66f-87ff-4116-8d36-0c440b0b8a4a responded 200 in 77.4789 ms
+2022-07-22 21:41:48.873 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 51.4957ms
+2022-07-22 21:41:48.874 +05:00 [INF] HTTP GET /download/cover/c4ce9b9f-a314-4462-97a6-cdca879004f5 responded 200 in 85.7662 ms
+2022-07-22 21:41:48.877 +05:00 [INF] HTTP GET /download/cover/204e6c6b-19d9-4e6b-8774-122c4dc5d321 responded 200 in 88.0426 ms
+2022-07-22 21:41:48.879 +05:00 [INF] HTTP GET /download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd responded 200 in 89.0567 ms
+2022-07-22 21:41:48.881 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/cde8a66f-87ff-4116-8d36-0c440b0b8a4a - - - 200 453 image/png 104.4932ms
+2022-07-22 21:41:48.882 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:41:48.884 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/c4ce9b9f-a314-4462-97a6-cdca879004f5 - - - 200 127415 image/png 114.0413ms
+2022-07-22 21:41:48.885 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/204e6c6b-19d9-4e6b-8774-122c4dc5d321 - - - 200 67722 image/png 115.3199ms
+2022-07-22 21:41:48.886 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd - - - 200 782755 image/png 109.7784ms
+2022-07-22 21:41:48.890 +05:00 [INF] HTTP GET /download/cover/a845d574-1626-47c0-b558-9dde04c76a10 responded 200 in 97.7955 ms
+2022-07-22 21:41:48.899 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/a845d574-1626-47c0-b558-9dde04c76a10 - - - 200 72880 image/png 113.5798ms
+2022-07-22 21:41:55.630 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/css/bootstrap.min.css.map - -
+2022-07-22 21:41:55.632 +05:00 [INF] HTTP GET /vendor/bootstrap/css/bootstrap.min.css.map responded 404 in 0.0989 ms
+2022-07-22 21:41:55.633 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/css/bootstrap.min.css.map - - - 404 0 - 3.2291ms
+2022-07-22 21:42:10.968 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=ASP.NET&page=1 - -
+2022-07-22 21:42:10.974 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:42:10.976 +05:00 [INF] Route matched with {action = "Search", controller = "Opds"}. Executing controller action with signature System.Threading.Tasks.Task`1[DotOPDS.Database.Dto.Feed] Search(System.String, Int32, System.Threading.CancellationToken) on controller DotOPDS.Server.Controllers.OpdsController (book_lib_server).
+2022-07-22 21:42:10.987 +05:00 [INF] Executing ObjectResult, writing value of type 'DotOPDS.Database.Dto.Feed'.
+2022-07-22 21:42:10.988 +05:00 [INF] Executed action DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server) in 9.9748ms
+2022-07-22 21:42:10.990 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:42:10.991 +05:00 [INF] HTTP GET /opds/search/everywhere responded 200 in 16.8341 ms
+2022-07-22 21:42:10.995 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=ASP.NET&page=1 - - - 200 - application/json;+charset=utf-8 27.3272ms
+2022-07-22 21:42:11.006 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd - -
+2022-07-22 21:42:11.009 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/cde8a66f-87ff-4116-8d36-0c440b0b8a4a - -
+2022-07-22 21:42:11.013 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/a845d574-1626-47c0-b558-9dde04c76a10 - -
+2022-07-22 21:42:11.018 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:42:11.019 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:42:11.023 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:42:11.024 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:42:11.026 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:42:11.027 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:42:11.039 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:42:11.041 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:42:11.051 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 18.4769ms
+2022-07-22 21:42:11.055 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:42:11.055 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:42:11.056 +05:00 [INF] HTTP GET /download/cover/cde8a66f-87ff-4116-8d36-0c440b0b8a4a responded 200 in 36.7890 ms
+2022-07-22 21:42:11.058 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 28.4473ms
+2022-07-22 21:42:11.064 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/cde8a66f-87ff-4116-8d36-0c440b0b8a4a - - - 200 453 image/png 56.0262ms
+2022-07-22 21:42:11.058 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 23.0456ms
+2022-07-22 21:42:11.066 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:42:11.070 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:42:11.072 +05:00 [INF] HTTP GET /download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd responded 200 in 53.6457 ms
+2022-07-22 21:42:11.072 +05:00 [INF] HTTP GET /download/cover/a845d574-1626-47c0-b558-9dde04c76a10 responded 200 in 49.2826 ms
+2022-07-22 21:42:11.076 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/a845d574-1626-47c0-b558-9dde04c76a10 - - - 200 72880 image/png 67.2968ms
+2022-07-22 21:42:11.076 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd - - - 200 782755 image/png 70.0539ms
+2022-07-22 21:42:43.323 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd - -
+2022-07-22 21:42:43.356 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:42:43.357 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:42:43.363 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:42:43.379 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 21.3444ms
+2022-07-22 21:42:43.383 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:42:43.384 +05:00 [INF] HTTP GET /download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd responded 200 in 28.1654 ms
+2022-07-22 21:42:43.385 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd - - - 200 782755 image/png 62.5913ms
+2022-07-22 21:42:43.402 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/favicon.ico - -
+2022-07-22 21:42:43.403 +05:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0296 ms
+2022-07-22 21:42:43.404 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/favicon.ico - - - 404 0 - 2.3361ms
+2022-07-22 21:43:07.417 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd - -
+2022-07-22 21:43:07.422 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:43:07.423 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:46:59.341 +05:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-22 21:47:00.363 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-07-22 21:47:00.546 +05:00 [INF] Entity Framework Core 6.0.3 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled using snake-case naming  (culture=)
+2022-07-22 21:47:00.910 +05:00 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 21:47:00.943 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 21:47:00.969 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT migration_id, product_version
+FROM "__EFMigrationsHistory"
+ORDER BY migration_id;
+2022-07-22 21:47:00.989 +05:00 [INF] No migrations were applied. The database is already up to date.
+2022-07-22 21:47:01.010 +05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2022-07-22 21:47:01.018 +05:00 [INF] Now listening on: http://[::]:25001
+2022-07-22 21:47:01.019 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-22 21:47:01.019 +05:00 [INF] Hosting environment: Development
+2022-07-22 21:47:01.020 +05:00 [INF] Content root path: C:\Works\DotOPDS\DotOPDS.Server
+2022-07-22 21:47:02.335 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd - -
+2022-07-22 21:47:02.387 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:47:02.407 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:48:14.317 +05:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-22 21:48:15.339 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-07-22 21:48:15.526 +05:00 [INF] Entity Framework Core 6.0.3 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled using snake-case naming  (culture=)
+2022-07-22 21:48:15.910 +05:00 [INF] Executed DbCommand (98ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 21:48:15.947 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 21:48:15.980 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT migration_id, product_version
+FROM "__EFMigrationsHistory"
+ORDER BY migration_id;
+2022-07-22 21:48:16.002 +05:00 [INF] No migrations were applied. The database is already up to date.
+2022-07-22 21:48:16.024 +05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2022-07-22 21:48:16.032 +05:00 [INF] Now listening on: http://[::]:25001
+2022-07-22 21:48:16.033 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-22 21:48:16.034 +05:00 [INF] Hosting environment: Development
+2022-07-22 21:48:16.034 +05:00 [INF] Content root path: C:\Works\DotOPDS\DotOPDS.Server
+2022-07-22 21:50:03.967 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/favicon.png - -
+2022-07-22 21:50:03.999 +05:00 [INF] The file /favicon.png was not modified
+2022-07-22 21:50:04.009 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/favicon.png - - - 304 - image/png 44.5203ms
+2022-07-22 21:50:06.741 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/ASP.NET - -
+2022-07-22 21:50:06.770 +05:00 [INF] HTTP GET /ASP.NET responded 404 in 0.4703 ms
+2022-07-22 21:50:06.772 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/ASP.NET - - - 404 0 - 30.6319ms
+2022-07-22 21:51:36.523 +05:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-22 21:51:37.521 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2022-07-22 21:51:37.708 +05:00 [INF] Entity Framework Core 6.0.3 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled using snake-case naming  (culture=)
+2022-07-22 21:51:38.075 +05:00 [INF] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 21:51:38.108 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2022-07-22 21:51:38.135 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT migration_id, product_version
+FROM "__EFMigrationsHistory"
+ORDER BY migration_id;
+2022-07-22 21:51:38.156 +05:00 [INF] No migrations were applied. The database is already up to date.
+2022-07-22 21:51:38.178 +05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2022-07-22 21:51:38.186 +05:00 [INF] Now listening on: http://[::]:25001
+2022-07-22 21:51:38.186 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-22 21:51:38.187 +05:00 [INF] Hosting environment: Development
+2022-07-22 21:51:38.187 +05:00 [INF] Content root path: C:\Works\DotOPDS\DotOPDS.Server
+2022-07-22 21:51:44.784 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/ASP.NET - -
+2022-07-22 21:51:44.837 +05:00 [INF] HTTP GET /ASP.NET responded 404 in 0.6418 ms
+2022-07-22 21:51:44.847 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/ASP.NET - - - 404 0 - 65.8729ms
+2022-07-22 21:51:46.545 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/ASP.NET - -
+2022-07-22 21:51:46.548 +05:00 [INF] HTTP GET /ASP.NET responded 404 in 0.0143 ms
+2022-07-22 21:51:46.550 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/ASP.NET - - - 404 0 - 4.4485ms
+2022-07-22 21:51:47.586 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/ASP.NET - -
+2022-07-22 21:51:47.587 +05:00 [INF] HTTP GET /ASP.NET responded 404 in 0.0024 ms
+2022-07-22 21:51:47.588 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/ASP.NET - - - 404 0 - 2.4395ms
+2022-07-22 21:51:55.692 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/ - -
+2022-07-22 21:51:55.721 +05:00 [INF] Sending file. Request path: '/index.html'. Physical path: 'C:\Works\DotOPDS\DotOPDS.Server\wwwroot\index.html'
+2022-07-22 21:51:55.722 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/ - - - 200 - text/html 30.4768ms
+2022-07-22 21:51:55.737 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/_framework/aspnetcore-browser-refresh.js - -
+2022-07-22 21:51:55.743 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 5.9279ms
+2022-07-22 21:51:55.765 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/css/bootstrap.min.css.map - -
+2022-07-22 21:51:55.766 +05:00 [INF] HTTP GET /vendor/bootstrap/css/bootstrap.min.css.map responded 404 in 0.0031 ms
+2022-07-22 21:51:55.767 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/vendor/bootstrap/css/bootstrap.min.css.map - - - 404 0 - 2.0060ms
+2022-07-22 21:51:55.828 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/opds - -
+2022-07-22 21:51:55.833 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.OpdsController.Index (book_lib_server)'
+2022-07-22 21:51:55.845 +05:00 [INF] Route matched with {action = "Index", controller = "Opds"}. Executing controller action with signature DotOPDS.Database.Dto.Feed Index() on controller DotOPDS.Server.Controllers.OpdsController (book_lib_server).
+2022-07-22 21:51:56.014 +05:00 [INF] Executing ObjectResult, writing value of type 'DotOPDS.Database.Dto.Feed'.
+2022-07-22 21:51:56.032 +05:00 [INF] Executed action DotOPDS.Server.Controllers.OpdsController.Index (book_lib_server) in 179.8647ms
+2022-07-22 21:51:56.035 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.OpdsController.Index (book_lib_server)'
+2022-07-22 21:51:56.036 +05:00 [INF] HTTP GET /opds responded 200 in 206.4715 ms
+2022-07-22 21:51:56.039 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/opds - - - 200 - application/json;+charset=utf-8 211.5381ms
+2022-07-22 21:51:59.659 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=ASP.NET&page=1 - -
+2022-07-22 21:51:59.665 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:51:59.686 +05:00 [INF] Route matched with {action = "Search", controller = "Opds"}. Executing controller action with signature System.Threading.Tasks.Task`1[DotOPDS.Database.Dto.Feed] Search(System.String, Int32, System.Threading.CancellationToken) on controller DotOPDS.Server.Controllers.OpdsController (book_lib_server).
+2022-07-22 21:52:00.003 +05:00 [INF] Executing ObjectResult, writing value of type 'DotOPDS.Database.Dto.Feed'.
+2022-07-22 21:52:00.007 +05:00 [INF] Executed action DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server) in 318.5021ms
+2022-07-22 21:52:00.008 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.OpdsController.Search (book_lib_server)'
+2022-07-22 21:52:00.010 +05:00 [INF] HTTP GET /opds/search/everywhere responded 200 in 345.5829 ms
+2022-07-22 21:52:00.012 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/opds/search/everywhere?q=ASP.NET&page=1 - - - 200 - application/json;+charset=utf-8 352.9795ms
+2022-07-22 21:52:00.038 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/c4ce9b9f-a314-4462-97a6-cdca879004f5 - -
+2022-07-22 21:52:00.039 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/b8d7a7c2-5ff2-4b9a-9819-9ab0da614a65 - -
+2022-07-22 21:52:00.041 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/cde8a66f-87ff-4116-8d36-0c440b0b8a4a - -
+2022-07-22 21:52:00.041 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd - -
+2022-07-22 21:52:00.041 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/204e6c6b-19d9-4e6b-8774-122c4dc5d321 - -
+2022-07-22 21:52:00.044 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:00.044 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:25001/download/cover/a845d574-1626-47c0-b558-9dde04c76a10 - -
+2022-07-22 21:52:00.045 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:00.045 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:00.047 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:00.047 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:00.050 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:52:00.050 +05:00 [INF] Executing endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:00.051 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:52:00.053 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:52:00.058 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:52:00.054 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:52:00.055 +05:00 [INF] Route matched with {action = "GetCover", controller = "Download"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCover(System.Guid) on controller DotOPDS.Server.Controllers.DownloadController (book_lib_server).
+2022-07-22 21:52:05.364 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:52:05.364 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:52:05.364 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:52:05.364 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:52:05.365 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:52:05.368 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 11.7348ms
+2022-07-22 21:52:05.370 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 11.7066ms
+2022-07-22 21:52:05.366 +05:00 [INF] Executing FileContentResult, sending file with download name '' ...
+2022-07-22 21:52:05.376 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:05.377 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:05.385 +05:00 [INF] HTTP GET /download/cover/cde8a66f-87ff-4116-8d36-0c440b0b8a4a responded 200 in 5339.9449 ms
+2022-07-22 21:52:05.387 +05:00 [INF] HTTP GET /download/cover/a845d574-1626-47c0-b558-9dde04c76a10 responded 200 in 5336.7165 ms
+2022-07-22 21:52:05.388 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/cde8a66f-87ff-4116-8d36-0c440b0b8a4a - - - 200 453 image/png 5347.6883ms
+2022-07-22 21:52:05.390 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/a845d574-1626-47c0-b558-9dde04c76a10 - - - 200 72880 image/png 5345.6669ms
+2022-07-22 21:52:05.370 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 5313.1296ms
+2022-07-22 21:52:05.368 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 13.7914ms
+2022-07-22 21:52:05.393 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:05.394 +05:00 [INF] Connection id "0HMJC09QRS4V5", Request id "0HMJC09QRS4V5:00000002": the application aborted the connection.
+2022-07-22 21:52:05.394 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:05.397 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 35.6245ms
+2022-07-22 21:52:05.398 +05:00 [INF] Executed action DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server) in 38.0394ms
+2022-07-22 21:52:05.396 +05:00 [INF] HTTP GET /download/cover/c4ce9b9f-a314-4462-97a6-cdca879004f5 responded 200 in 5352.4710 ms
+2022-07-22 21:52:05.400 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:05.401 +05:00 [INF] Executed endpoint 'DotOPDS.Server.Controllers.DownloadController.GetCover (book_lib_server)'
+2022-07-22 21:52:05.402 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/c4ce9b9f-a314-4462-97a6-cdca879004f5 - - - 200 127415 image/png 5364.2464ms
+2022-07-22 21:52:05.399 +05:00 [INF] HTTP GET /download/cover/b8d7a7c2-5ff2-4b9a-9819-9ab0da614a65 responded 200 in 5353.8106 ms
+2022-07-22 21:52:05.404 +05:00 [INF] HTTP GET /download/cover/204e6c6b-19d9-4e6b-8774-122c4dc5d321 responded 200 in 5356.1763 ms
+2022-07-22 21:52:05.404 +05:00 [INF] HTTP GET /download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd responded 200 in 5357.2692 ms
+2022-07-22 21:52:05.406 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/b8d7a7c2-5ff2-4b9a-9819-9ab0da614a65 - - - 200 12306 image/png 5366.9553ms
+2022-07-22 21:52:05.410 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/204e6c6b-19d9-4e6b-8774-122c4dc5d321 - - - 200 67722 image/png 5369.5884ms
+2022-07-22 21:52:05.410 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:25001/download/cover/7d19f2b3-4573-407d-9643-fb57034cdabd - - - 200 782755 image/png 5369.5658ms

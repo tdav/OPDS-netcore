@@ -1,0 +1,6 @@
+2022-07-14 14:14:46.972 +05:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-14 14:14:47.340 +05:00 [WRN] Overriding address(es) 'https://localhost:5001, http://localhost:5000'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2022-07-14 14:14:47.355 +05:00 [INF] Now listening on: http://[::]:25001
+2022-07-14 14:14:47.357 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-14 14:14:47.358 +05:00 [INF] Hosting environment: Development
+2022-07-14 14:14:47.358 +05:00 [INF] Content root path: C:\Works\Books_DotOPDS_V2\DotOPDS.Server
